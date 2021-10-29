@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f5f5f5;
+	color: #202020;
+}
+
+.bg-green {
+	background-color: #7ea428;
+	color: white;
+}
+
+.bg-blue {
+	background-color: #24325c;
+	color: white;
+}
+
+.bg-blue:hover {
+	color: #ccc !important;
+}
+
+.bg-red {
+	background-color: #bc2b32;
+	color: white;
+}
+
+.bg-green-l {
+	background-color: #6f8545d0;
+	color: white;
+}
+
+.bg-gray-1 {
+	background-color: #f5f5f5;
+	color: black;
+}
+
+.card-hover {
+	transition: all 400ms ease-in-out;
+
+}
+
+.card-hover:hover {
+	transform: scale(1.05);
+}
+
+/*Form*/
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	background-color: #f5f5f5;
+	font-family: 'Montserrat';
+}
+
+.wrap {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 20px;
+	/*margin: auto;*/
+}
+
+.formulario h2 {
+	font-size: 16px;
+	color: #001F3F;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.formulario>div {
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.formulario {
+	/* --------------------------------------- */
+	/* ----- Radio Button */
+	/* --------------------------------------- */
+	/* --------------------------------------- */
+	/* ----- Checkbox */
+	/* --------------------------------------- */
+}
+
+.formulario h2 {
+	font-size: 16px;
+	color: #173f00;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.formulario>div {
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.formulario .radio label,
+.formulario .checkbox label {
+	display: inline-block;
+	cursor: pointer;
+	color: #7ea428;
+	position: relative;
+	padding: 5px 15px 5px 51px;
+	font-size: 1em;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.formulario .radio label:hover,
+.formulario .checkbox label:hover {
+	background: #ecfcd0d2;
+}
+
+.formulario .radio label:before,
+.formulario .checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	left: 15px;
+	border-radius: 50%;
+	background: none;
+	border: 3px solid #7ea428;
+}
+
+.formulario input[type="radio"] {
+	display: none;
+}
+
+.formulario input[type="radio"]:checked+label:before {
+	display: none;
+}
+
+.formulario input[type="radio"]:checked+label {
+	padding: 5px 15px;
+	background: #7ea428;
+	border-radius: 2px;
+	color: #fff;
+}
+
+.formulario .checkbox label:before {
+	border-radius: 3px;
+}
+
+.formulario .checkbox input[type="checkbox"] {
+	display: none;
+}
+
+.formulario .checkbox input[type="checkbox"]:checked+label:before {
+	display: none;
+}
+
+.formulario .checkbox input[type="checkbox"]:checked+label {
+	background: #7ea428;
+	color: #fff;
+	padding: 5px 15px;
+}

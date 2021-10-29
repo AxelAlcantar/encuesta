@@ -1,0 +1,45 @@
+{
+    "name": "Modulo de encuestas en PWA",
+    "short_name": "SolucionesTAI Forms",
+    "description": "Aplicación Web Progresiva sobre el Modulo de Encuestas de SolucionesTAI",
+    "background_color": "#fff",
+    "theme_color": "#608B41",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang": "es-MX",
+	"splash":{
+		"image": "./assets/img/logo.png",
+		"resizeMode": "contain",
+		"background_color": "#fff"
+	},
+	"android":{
+		"adaptiveIcon":{
+			"foregroundImage": "./assets/img/favicon-96x96.png",
+			"background_color": "#fff"
+		}
+	},
+    "icons":[
+        {
+            "src": "./assets/img/favicon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/img/favicon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/img/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "./assets/img/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        }
+    ]
+}
